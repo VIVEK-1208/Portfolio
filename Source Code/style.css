@@ -1,0 +1,72 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+html, body{
+height: 100%;
+width: 99%;
+font-family: 'Ubuntu', sans-serif;
+font-size: 15px;
+}
+
+.pageone{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.onefirst{
+    width: 50%;
+}
+.onefirst img{
+    height: 700px;
+    width: 600px;
+}
+.onesecond{
+    width: 50%;
+    text-align: center;  
+}
+.onesecond h1{
+    animation: color-change 3s infinite;
+}
+.onesecond h2{
+    animation: color-change 3s infinite;
+}
+@keyframes color-change {
+    0% {
+        color: #00698f;
+    }
+    50% {
+        color: #8bc34a;
+    }
+    100% {
+        color: #666;
+    }
+}
+.onesecond button{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.onesecond button:hover {
+    background-color: #666;
+}
+
+
+
+.pagetwo{
+    background-color: bisque;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.twofirst{
+    background-color: aquamarine;
+    width: 50%;
+} 
+.twosecond{
+    background-color: #8bc34a;
+    
+}
