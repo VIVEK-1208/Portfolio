@@ -5,6 +5,10 @@
     font-weight: 400;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -58,6 +62,8 @@ nav{
 #about-section{
     padding: 150px;
     background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
 }
 #about-section h2{
     text-align: center;
@@ -89,7 +95,7 @@ picture{
     transition: transform 0.3s ease;
 }
 .photo img:hover{
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 .bio p{
     text-align: center;
@@ -115,6 +121,26 @@ picture{
     color: #a5d8bf;
     transform: scale(1.2);
 }
+.download-file{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.download-file button{
+    color: white;
+    background-color: #569375;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.download-file button:hover{
+    transform: scale(1.1);
+    background-color: #a5d8bf;
+}
 
 /* projects-section */
 #projects-section{
@@ -130,4 +156,93 @@ picture{
     margin: 8px auto 0;
     border-radius: 20px;
     border: none;
+}
+
+/* skills-section */
+#skills-section{
+    padding: 100px;
+    background-color: whitesmoke;
+}
+#skills-section h2{
+    text-align: center;
+}
+#skills-section hr{
+    width: 5%;
+    height: 4px;
+    background-color: #a5d8bf;
+    margin: 8px auto 0;
+    border-radius: 20px;
+    border: none;
+}
+.skills-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 40px 40px;
+}
+.skills-container i{
+    font-size: 40px;
+    color: #569375;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.skills-container i:hover{
+    color: #a5d8bf;
+    transform: scale(1.2);
+}
+
+/* contact-section */
+#contact-section{
+    padding: 100px;
+}
+#contact-section h2{
+    text-align: center;
+}
+#contact-section hr{
+    width: 8%;
+    height: 4px;
+    background-color: #a5d8bf;
+    margin: 8px auto 0;
+    border-radius: 20px;
+    border: none;
+}
+#message-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+}
+#message-box input{
+    width: 50%;
+    height: 100px;
+}
+#message-box input::placeholder{
+    text-align: center;
+}
+#message-box button{
+    color: white;
+    background-color: #569375;
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+#message-box button:hover{
+    transform: scale(1.1);
+}
+
+/* footer-section */
+.footer-section{
+    background-color: rgb(106, 106, 106);
+    color: white;
+    padding: 15px;
+}
+.footer-section p{
+    text-align: center;
+    font-size: 16px;
 }

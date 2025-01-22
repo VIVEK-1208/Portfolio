@@ -17,10 +17,10 @@
             </div>
             <div class="right">
                 <a href="#about-section">About</a>
-                <a href="#education-section">Education</a>
-                <a href="#experience-section">Experience</a>
+                <!-- <a href="#education-section">Education</a>
+                <a href="#experience-section">Experience</a> -->
                 <a href="#projects-section">Projects</a>
-                <a href="skills-section">Skills</a>
+                <a href="#skills-section">Skills</a>
                 <a href="#contact-section">Contact</a>
             </div>
         </nav>
@@ -41,17 +41,24 @@
             <p>Outside of career and academics, I enjoy playing videogaming, watching series, and travelling!</p>
         </div>
         <div class="social-links">
-            <a href="https://" target="_blank">
+            <a href="https://www.instagram.com/eagl_vivek?igsh=ejYweW90MnlrZmJk&utm_source=qr" target="_blank">
                 <i class="fa-brands fa-instagram"></i>
             </a>
-            <a href="https://" target="_blank">
+            <a href="https://www.hackerrank.com/profile/vivekbharti1208" target="_blank">
                 <i class="fa-brands fa-hackerrank"></i>
             </a>
-            <a href="https://" target="_blank">
+            <a href="https://www.linkedin.com/in/vivek-bharti-250aa4253" target="_blank">
                 <i class="fa-brands fa-linkedin"></i>
             </a>
-            <a href="https://" target="_blank">
+            <a href="https://github.com/VIVEK-1208" target="_blank">
                 <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+        <div class="download-file">
+            <h2>To  Download Resume:</h2>
+            <a href="Resume.pdf" download="Vivek's_Resume.pdf">
+                <button>Click Here!</button>
+                
             </a>
         </div>
     </section>
@@ -64,6 +71,46 @@
 
         </div>
      </section>
-    
+
+     <!-- Skills-section -->
+      <section id="skills-section">
+        <h2>Skills</h2>
+        <hr />
+        <div class="skills-container">
+            <i class="fa-brands fa-python"></i>
+            <i class="fa-brands fa-java"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-solid fa-database"></i>
+
+
+        </div>
+      </section>
+
+      <!-- contact-section -->
+       <section id="contact-section">
+        <h2>Leave a Message</h2>
+        <hr />
+        <form id="message-box">
+            <input id="message-input" type="text" placeholder="Enter Your Message Here!" required>
+            <button type="submit">SUBMIT</button>
+        </form>
+       </section>
+
+       <!-- footer -->
+       <footer class="footer-section">
+            <p>ⓒ 2025 Vivek Bharti. &nbsp All Rights Reserved.</p>
+       </footer>
+
+
+       <script>
+        const form = document.getElementById('message-box');
+        const input = document.getElementById('message-input');
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert('Message submitted.');
+            input.value = '';
+        });
+    </script>
 </body>
 </html>
