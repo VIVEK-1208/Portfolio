@@ -13,8 +13,7 @@ Welcome to my personal portfolio website repository! This project showcases my s
 
 ## Preview
 
-Check out my live portfolio here: [Live Demo](#)  
-(*Replace `#` with your deployed portfolio link, e.g., GitHub Pages or Netlify.*)
+Check out my live portfolio here: [Live Demo](https://vivekbharti-portfolio.netlify.app)
 
 ---
 
