@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
     <!-- navBar -->
@@ -32,11 +34,13 @@
         <hr />
         <div class="photo">
             <picture>
-                <img src="IMG_0968-removebg-preview.png" alt="">
+                <img src="../Documents/Photo.png" alt="">
             </picture>
         </div>
         <div class="bio">
-            <p>Hey! I'm Vivek, a student of KIIT University who's incredibly excited about software development and UX design. with a background in Computer Science and Communication Engineering, I'm well equipped with a technical skillset and an eagerness to experiment!</p>
+            <p>Hey! I'm Vivek, a student of KIIT University who's incredibly excited about software development and UX
+                design. with a background in Computer Science and Communication Engineering, I'm well equipped with a
+                technical skillset and an eagerness to experiment!</p>
             <br>
             <p>Outside of career and academics, I enjoy playing videogaming, watching series, and travelling!</p>
         </div>
@@ -55,25 +59,81 @@
             </a>
         </div>
         <div class="download-file">
-            <h2>To  Download Resume:</h2>
-            <a href="Resume.pdf" download="Vivek's_Resume.pdf">
+            <h2>To Download Resume:</h2>
+            <a href="../Documents/Resume.pdf" download="Vivek's_Resume.pdf">
                 <button>Click Here!</button>
-                
+
             </a>
         </div>
     </section>
 
     <!-- Projects-section -->
-     <section id="projects-section">
+    <section id="projects-section">
         <h2>Projects</h2>
         <hr>
         <div class="project-subsection">
+            <!-- project-1 -->
+            <a href="https://github.com/VIVEK-1208/Clone-Zomato.git" target="_blank">
+                <div class="projects">
+                    <img src="../Documents/ZomatoClone.png" alt="">
+                    <h3>Landing Page of Zomato</h3>
+                    <h6>HTML, CSS</h6>
+                    <p>This repository contains a clone of the Zomato landing page. It is built using HTML and CSS to
+                        closely mimic the design and functionality of the original Zomato homepage.</p>
+                </div>
+            </a>
+            <!-- project-2 -->
+            <a href="https://github.com/VIVEK-1208/Age-Calculator.git" target="_blank">
+                <div class="projects">
+                    <img src="../Documents/AgeCalculator.png" alt="">
+                    <h3>Age Calculator</h3>
+                    <h6>HTML, CSS, JS</h6>
+                    <p>This is a simple web-based age calculator application that allows users to enter their birth date
+                        and calculate their current age in years, months, and days. The project includes error handling
+                        for invalid dates and responsive design.</p>
+                </div>
+            </a>
+            <!-- project-3 -->
+            <a href="https://github.com/VIVEK-1208/To-Do-List.git" target="_blank">
+                <div class="projects">
+                    <img src="../Documents/ToDoList.png" alt="">
+                    <h3>To Do List</h3>
+                    <h6>HTML, CSS, JS</h6>
+                    <p>A simple and elegant To-Do List web application that allows users to add, check off, and remove
+                        tasks. The app also saves the user's list in their browser's local storage, so the tasks persist
+                        even after a page reload.</p>
+                </div>
+            </a>
+            <!-- project-4 -->
+            <a href="https://github.com/VIVEK-1208/Foodie-Website.git" target="_blank">
+                <div class="projects">
+                    <img src="../Documents/FoodieWebsite.png" alt="">
+                    <h3>Foodie Website</h3>
+                    <h6>HTML, CSS, JS, React.js</h6>
+                    <p>This is a simple web-based age calculator application that allows users to enter their birth date
+                        and calculate their current age in years, months, and days. The project includes error handling
+                        for invalid dates and responsive design.</p>
+                </div>
+            </a>
+            <!-- project-5 -->
+            <a href="https://github.com/VIVEK-1208/Foodie-Website.git" target="_blank">
+                <div class="projects">
+                    <img src="../Documents/FoodieWebsite.png" alt="">
+                    <h3>Medical Recommendation System</h3>
+                    <h6>Frontend, Backend, Python, SQLite</h6>
+                    <p>A user-friendly platform designed to empower individuals to take charge of their health.
+                        Leveraging machine learning models, this system predicts potential illnesses based on symptoms
+                        and provides tailored recommendations for medications, dietary advice, and workout plans.design.
+                    </p>
+                </div>
+            </a>
+            <!-- project-6 -->
 
         </div>
-     </section>
+    </section>
 
-     <!-- Skills-section -->
-      <section id="skills-section">
+    <!-- Skills-section -->
+    <section id="skills-section">
         <h2>Skills</h2>
         <hr />
         <div class="skills-container">
@@ -84,25 +144,25 @@
 
 
         </div>
-      </section>
+    </section>
 
-      <!-- contact-section -->
-       <section id="contact-section">
+    <!-- contact-section -->
+    <section id="contact-section">
         <h2>Leave a Message</h2>
         <hr />
         <form id="message-box">
             <input id="message-input" type="text" placeholder="Enter Your Message Here!" required>
             <button type="submit">SUBMIT</button>
         </form>
-       </section>
+    </section>
 
-       <!-- footer -->
-       <footer class="footer-section">
-            <p>ⓒ 2025 Vivek Bharti. &nbsp All Rights Reserved.</p>
-       </footer>
+    <!-- footer -->
+    <footer class="footer-section">
+        <p>ⓒ 2025 Vivek Bharti. &nbsp All Rights Reserved.</p>
+    </footer>
 
 
-       <script>
+    <script>
         const form = document.getElementById('message-box');
         const input = document.getElementById('message-input');
 
@@ -113,4 +173,5 @@
         });
     </script>
 </body>
+
 </html>
